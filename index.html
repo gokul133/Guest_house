@@ -43,13 +43,13 @@
       <header id="header" class="header-one">
         <div class="container">
           <div class="row">
-            <div class="logo-area clearfix">
-              <div class="col-md-2 header-center"></div>
-              <div class="col-xs-3 col-md-3 header-center" id="logo_div">
-                <a href="index.html">
-                  <img src="images/IIITDMLogo.png" alt="" />
-                </a>
-              </div>
+            <div class="logo-area1 clearfix" id="logo_div">
+              <!-- <div class="col-md-2 header-center"></div> -->
+              <!-- <div class="col-xs-3 col-md-3 header-center" id="logo_div"> -->
+              <a href="index.html">
+                <img src="images/IIITDMLogo.png" alt="" />
+              </a>
+              <!-- </div> -->
             </div>
           </div>
         </div>
@@ -225,7 +225,7 @@
               <label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Arrival</label>
             </div>      
           </div>
-          <div class="col-1-4 col-1-4-sm">
+          <div class="col-1-5 col-1-4-sm">
             <div class="controls">
               <input type="date" id="depart" class="floatLabel" name="Departure" value="<?php echo date('Y-m-d',strtotime($data["congestart"])) ?" required>
               <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Departure</label>
@@ -262,8 +262,8 @@
             <i class="fa fa-sort"></i>
             <select class="floatLabel" name="RoomType" required>
               <option value="blank"  selected></option>
-              <option value="VIP room">VIP(Price Rs. 1000/- Per Day)</option>
-              <option value="Normal room">Normal(Price Rs. 500/- Per Day)</option>
+              <option value="VIP">VIP(Price Rs. 1000/- Per Day)</option>
+              <option value="Normal">Normal(Price Rs. 500/- Per Day)</option>
             </select>
             <label for="fruit">Room</label>
            </div>     
